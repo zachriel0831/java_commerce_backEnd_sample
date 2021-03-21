@@ -225,7 +225,6 @@ const Home: React.FC<any> = (props) => {
             setQueriesState(queryDatas);
 
             alert('新增成功!');
-            props.resetKey();
         }).catch(function (error) {
             // handle error
             console.log(error);
